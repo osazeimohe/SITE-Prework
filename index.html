@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+          <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer ></script>
+
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Sounds and colors!
+    </h1>
+     <!-- Welcome message -->
+    <p>Welcome to my new game, sounds and colors. This game tests your ability to memorize patterns and sequences. 
+      It is definitely something fun and challenging to do with your spare time!
+    </p>
+    <button id = "startBtn" onclick = "startGame()">
+      Start
+    </button>
+    <button id = "stopBtn" class = "hidden" onclick = "finishGame()">
+      Stop
+    </button>
+    
+    <div id = "gameButtonArea">
+      <button id = "button1" onmousedown="startTone(1)" onclick="guess(1)" onmouseup="stopTone()"> </button>
+      <button id = "button2" onmousedown="startTone(2)" onclick="guess(2)" onmouseup="stopTone()"> </button>
+      <button id = "button3" onmousedown="startTone(3)" onclick="guess(3)" onmouseup="stopTone()"> </button>
+      <button id = "button4" onmousedown="startTone(4)" onclick="guess(4)" onmouseup="stopTone()"> </button>
+      
+    </div>
+    
+  </body>
+
+</html>
