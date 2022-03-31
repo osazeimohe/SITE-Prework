@@ -19,8 +19,8 @@ The following **optional** features are implemented:
 * [ ] User can **click more than four game buttons** 
 * [ ] User will **Speed up the game with time** 
 * [ ] User will **be provided with a random secret pattern**
-* [ ]User will **be given three strikes**
-* [ ]User will **have a limited time to make game guesses**
+* [ ] User will **be given three strikes**
+* [ ] User will **have a limited time to make game guesses**
 
 
 ## Video Walkthrough
