@@ -31,7 +31,6 @@ The following **optional** features are implemented:
 https://careerkarma.com/blog/javascript-document-getelementbyid-is-not-a-function/
 
 2. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-
 A challenge I experienced while working on this submission was getting the button to toggle from start to stop when clicked. The first thing I did in this situation was to check for any mistakes in the syntax. I looked at the capitalization and punctuation in the finish game() method to make sure they were all correct. Next, I inspected the page of the game to take a look into what was being logged to the console. I got a type error saying getElementbyId() is not a function. I looked at an article online to check for the cause of the type error(). After checking my code again I noticed that  I had overlooked the lowercase “b” in “getElementbyId()” which was supposed to be uppercase. When I corrected this error the button was able to toggle from start to stop. Thereby triggering the finishgame() function
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
