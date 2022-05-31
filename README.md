@@ -1,4 +1,4 @@
-# SITE Pre-work - *Sounds and colors*
+# *Sounds and colors*
 
 **Sounds and colors** is an app is an app that allows the user to test their memory by recalling patterns of colors and sounds features include starting and stopping the game, producing clues and shapes that produce sounds on click
 
